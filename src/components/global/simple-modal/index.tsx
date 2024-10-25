@@ -66,6 +66,7 @@ export const SimpleModal = ({
       return (
         <Dialog>
           <DialogTrigger asChild>{trigger}</DialogTrigger>
+          <DialogTitle className="text-xl"></DialogTitle>
           <DialogContent className="bg-[#1C1C1E] !max-w-2xl border-themeGray">
             {children}
           </DialogContent>
